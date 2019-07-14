@@ -1,0 +1,149 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+  
+}
+
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+  nav{
+    margin-top: 5%;
+  }
+  .about{
+    margin-bottom: 15%;
+  }
+  .about-img{
+    text-align: center;
+    padding-top: 5%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+}
+
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+   
+}
+
+
+/* 769  - 960 px */
+@media screen and (max-width: 960px) {
+  nav{
+    margin-top: 5%;
+  }
+  .mobile-up-display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-button {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    padding-top: 8%;
+  }
+  .footer-button button{
+    width: 200px;
+    height: 55px;
+    background: #4ca9ff;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 18pt;
+  }
+  .footer-button button:hover{
+    display: none;
+  }
+}
+
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+  nav{
+    margin-top: 5%;
+  }
+  .about{
+    margin-bottom: 25%;
+  }
+  .about-header{
+    width: 50%;
+  }
+  .services{
+    font-size: 12pt;
+  }
+  .specialize-table{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-main{
+    flex-direction: column;
+  }
+  .footer-copyright{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+  nav{
+    margin-top: 25%;
+  }
+  .main h1{
+    font-size: 50pt;;
+  }
+  .mobile-up-display{
+    display: none;
+  }
+  .services{
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .specialize-header h2{
+    font-size: 25pt;
+  }
+  .mobile-up-header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mobile-up-text{
+    align-items: center;
+  }
+  .mobile-up-text p{
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .mobile-up-text h2 {
+    font-size: 25pt;
+  }
+  .about-header h2{
+    font-size: 25pt;
+  }
+  .about-img{
+    text-align: center;
+    padding-top: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .about > .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-header > .line{
+    display: none;
+  }
+}
